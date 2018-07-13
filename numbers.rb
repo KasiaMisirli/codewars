@@ -5,8 +5,6 @@ def accum(s)
   letters_array.each_with_index do |letter,index|
     l = letter.downcase
     final << letter + l * index
-    # letter = nil
-    # print letters_array.index(letter)
   end
   print final.join("-")
 end

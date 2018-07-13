@@ -8,7 +8,7 @@ def sort_my_string(s)
     elsif index % 2 != 0
       odd << letter
     end
-end
-   print even.join()+" "+odd.join()
+  end
+  print even.join()+" "+odd.join()
 end
 sort_my_string("CodeWars")
