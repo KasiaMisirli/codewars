@@ -17,3 +17,7 @@ def predict_age(age_1, age_2, age_3, age_4, age_5, age_6, age_7, age_8)
     return final.floor
 end
 predict_age(65,60,75,55,60,63,64,45)
+
+# another way to deal with multiple parameters:
+# predict_age(*ages)
+# ages.map{age...}
